@@ -1,43 +1,20 @@
 public class Circle {
-    protected double radius;
-    String color;
+    private double radius = 1.0;
+    private String color = "red";
 
     public Circle() {
-        radius = 1;
-        color = "yellow";
     }
-
 
     public Circle(double radius, String color) {
         this.radius = radius;
         this.color = color;
     }
 
-
-    public double getRadius() {
-        return radius;
+    public double getRadius (){
+        return this.radius;
     }
 
-    public void setRadius(double radius) {
-        this.radius = radius;
+    public double getArea (){
+        return this.radius * this.radius * Math.PI;
     }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String toString() {
-        return "A Circle with radius = " + radius + ", and color " + color;
-    }
-
-    public static void main(String[] args) {
-        Circle circle = new Circle(5, "red");
-        System.out.println(circle.toString());
-
-        }
-
 }
