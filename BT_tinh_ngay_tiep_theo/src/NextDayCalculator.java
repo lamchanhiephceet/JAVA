@@ -1,24 +1,26 @@
 public class NextDayCalculator {
-    public void nextDay(int nDay,int nMonth,int nYear) {
+    public static String nextDay(int nDay,int nMonth,int nYear){
+
         nDay++;
-        if(nDay > numofDays(nMonth,nYear)) {
+        if(nDay > numofDays( nMonth,nYear)) {
             nDay = 1;
             nMonth++;
-            if(nMonth > 12) {
+            if( nMonth > 12) {
                 nMonth = 1;
                 nYear++;
             }
         }
+        return nDay+ "/" +nMonth+ "/" +nYear;
     }
 
-    public boolean isLeapyear(int nYear) {
+    public static boolean isLeapyear(int nYear) {
         if((nYear % 4 == 0 && nYear%100 !=0) || nYear%400 == 0) {
             return true;
         }
         return false;
     }
 
-    public int numofDays(int nMonth,int nYear) {
+    public static int numofDays(int nMonth,int nYear) {
         int nNumofDays = 0;
         switch(nMonth)
         {
@@ -48,25 +50,4 @@ public class NextDayCalculator {
         }
         return nNumofDays;
     }
-
-    public boolean validDays(int nDay,int nMonth,int nYear) {
-        boolean result = true;
-        if(!(nYear>0)) {
-            result = false;
-        }
-        if (!(nMonth >= 1 && nMonth <= 12))
-        {
-            result = false; // Ngày không còn hợp lệ nữa!
-        }
-
-        // Kiểm tra ngày
-        if (!(nDay >= 1 && nDay <= numofDays(nMonth, nYear)))
-        {
-            result = false; // Ngày không còn hợp lệ nữa!
-        }
-
-        return result; // Trả về trạng thái cuối cùng...
-    }
-
-
 }
