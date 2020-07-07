@@ -9,7 +9,7 @@ import model.Reader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class View {
+public class Display {
     public static void main(String[] args) {
         int choice = 0;
         var booksFileName = "BOOK.DAT";
@@ -207,7 +207,7 @@ public class View {
                         System.out.println("1. Sắp xếp theo tên bạn đọc(A-Z)");
                         System.out.println("2. Sắp xếp theo tổng số lượng mượn(Giảm dần)");
                         System.out.println("0. Trở lại menu chính.");
-                        System.out.println("Bạn chọn?");
+                        System.out.println("Vui lòng chọn: ");
                         x = scanner.nextInt();
                         if(x == 0){
                             break;
