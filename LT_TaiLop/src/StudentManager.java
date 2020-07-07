@@ -67,9 +67,10 @@ public class StudentManager {
     public void show() {
         studentList = studentIO.read();
         for(Student stock : studentList) {
-            System.out.println("id student:   " + stock.getId());
-            System.out.println("Name student: " + stock.getName());
-            System.out.println("Address:     " + stock.getAddress());
+            System.out.println("1.id student:   "     + stock.getId());
+            System.out.println("2.Name student: "     + stock.getName());
+            System.out.println("3.Address:     "      + stock.getAddress());
+            System.out.println("_______________");
         }
     }
     public int inputId() {
