@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="db-derby-10.14.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin/demo/programs" />
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin/demo/programs/scores/java/client" />
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin/demo/programs/scores/java/common" />
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin/demo/programs/scores/java/server" />
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin/demo/programs/simple" />
+      <root url="file://$USER_HOME$/Downloads/db-derby-10.14.2.0-bin/demo/programs/vtis/java" />
+    </SOURCES>
+  </library>
+</component>
