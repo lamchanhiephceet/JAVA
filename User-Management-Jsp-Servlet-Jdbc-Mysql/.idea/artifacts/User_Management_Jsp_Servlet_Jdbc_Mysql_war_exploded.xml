@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="User-Management-Jsp-Servlet-Jdbc-Mysql:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/User_Management_Jsp_Servlet_Jdbc_Mysql_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="User-Management-Jsp-Servlet-Jdbc-Mysql/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="User-Management-Jsp-Servlet-Jdbc-Mysql" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="project" name="jsp-api-2.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
